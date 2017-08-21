@@ -10,6 +10,8 @@ import org.springframework.web.servlet.DispatcherServlet;
 import org.springframework.web.context.ContextLoaderListener;
 
 /*Here we will define the configuration (servlet configuration) for WEB.XML. This is done by implementing WebApplicationInitializer*/
+/*The Java class has to implement the org.springframework.web.WebApplicationInitializer which will be loaded when web application starts.*/
+/*Web application execution starts from this file*/
 
 public class WebAppInitializer implements WebApplicationInitializer {
 
